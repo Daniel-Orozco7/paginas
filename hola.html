@@ -2,45 +2,51 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Mi Sitio Web</title>
+    <title>Mi Sitio de Citas</title>
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
     <header>
-        <h1>Mi Sitio Web</h1>
+        <h1>Bienvenido a Mi Sitio de Citasss</h1>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#about">Acerca de Nosotros</a></li>
+                <li><a href="#services">Nuestros Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="registro.html">Registrarse</a></li>
             </ul>
         </nav>
     </header>
     
-    <section id="contenido">
-        <h2>Bienvenido a Mi Sitio Web</h2>
-        <p>Este es un sitio web de ejemplo con contenido variado. Puedes explorar las diferentes secciones a través del menú de navegación.</p>
+    <section id="hero">
+        <h2>Encuentra la cita al sitio que deseas</h2>
+        <p>Explora miles de opciones y encuentra tu lugar perfecto</p>
+        <a href="iniciar-sesion.html" class="button">Iniciar Sesión</a>
     </section>
 
-    <section id="contacto">
+    <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>Somos el mejor sitio de citas en línea, dedicados a ayudarte a encontrar a ese lugar ideal. Nuestra plataforma te ofrece la oportunidad de conocer lugares y servicios especiales para ti.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Perfiles detallados</li>
+            <li>Compatibilidad basada en intereses</li>
+            <li>Chat en línea</li>
+            <li>Eventos y actividades sociales</li>
+        </ul>
+    </section>
+
+    <section id="contact">
         <h2>Contacto</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
+        <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p>
+        <a href="contacto.html" class="button">Contacto</a>
     </section>
 
     <footer>
-        <p>&copy; 2023 Mi Sitio Web</p>
+        <p>&copy; 2023 Mi Sitio de Citas</p>
     </footer>
 </body>
 </html>
